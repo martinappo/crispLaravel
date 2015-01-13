@@ -200,7 +200,7 @@ div.portfolio {
   border-bottom: solid 2px rgba(255, 255, 255, 0.3);
 }
 div.portfolio .el {
-  opacity: 0.0;
+  opacity: 0.6;
   height: 270px;
   border-top: solid 2px rgba(255, 255, 255, 0.3);
   border-right: solid 2px rgba(255, 255, 255, 0.3);
