@@ -32,8 +32,8 @@ return array(
 			'host'      => 'crisp.ee',
 			'username'  => 'r53225',
 			'password'  => 'P5Hkys8u3',
-			'key'       => '',
-			'keyphrase' => '',
+			'key'       => '../../privatekeyccrisp.ppk',
+			'keyphrase' => 'junn55',
 			'root'      => '/domains/crisp.ee/public_html/new',
 		),
 

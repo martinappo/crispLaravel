@@ -1,0 +1,1 @@
+var portfolioApp = angular.module('portfolioApp', ['portfolioCtrl', 'artworkService', 'ui.sortable']);

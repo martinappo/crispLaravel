@@ -1,0 +1,123 @@
+html{
+	height:100%;
+	body{
+		height:100%;
+		margin:0px;
+		padding:0px;
+		font-family: "Source Sans Pro";
+		color: $fontcolor;
+		font-size: 12pt;
+		background-image: url("../img/bg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: top center;
+		background-attachment: fixed;
+
+		.group:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+
+		}
+
+		.be{
+			width: 34px;
+			height: 34px;
+			transition: opacity 0.2s ease-in-out;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-image: url("../img/be.png");
+			display: inline-block;
+			margin-top: 160px;
+			margin-right: 10px;
+			cursor: pointer;
+			margin-left: 10px;
+			&:hover{
+				opacity: 0.8;
+			}
+		}
+		&.portfolio{
+			min-height: 48px;
+			height: 48px;
+
+		}
+
+		//Navbar
+		a.navbar-brand{
+			background-image: url("../img/crisp_logo.png");
+			background-repeat: no-repeat;
+			background-size: contain;
+		}//logo
+		.navbar-default {
+			background-color:transparent;
+			border:none;
+			margin-top: 30px;
+			.navbar-nav{
+				li:active a{
+						background-color: transparent;
+				}
+			}
+		}
+		#navbar {
+			ul{
+				padding: 0;
+				margin: 0;
+				li{
+					margin: 0;
+					padding: 0;
+					color: #000;
+					a{
+						transition: all 0.2s ease-in-out;
+						line-height: 48px;
+						color: $fontcolor;
+						text-decoration: none;
+						font-weight: 300;
+						&:hover{
+							background-color: transparent;
+							opacity: 0.4;
+							color: #000;
+						}
+					}
+				}
+			}
+		}
+
+		section.content{
+			width: 75%;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 2.2em;
+			font-weight: 300;
+			padding-top: 15%;
+			a.kontakt{
+				text-decoration: none;
+				color: $fontcolor;
+				&:hover{
+					transition: opacity 0.2s ease-in-out; 
+					opacity: 0.6;
+				}
+			}
+			.bold{
+				font-weight: 600;
+			}
+		}//content
+		.bgDesc{
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+			font-size: 9pt;
+			opacity: 0.3;
+			text-align: right;
+		}
+	}
+}
+
+
+/*
+ehk lää-heb vaja
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+ */
