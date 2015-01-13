@@ -33,3 +33,5 @@ Route::get('contact', 'PagesController@contact');
 Route::get('admin', function() {
 	return 'this is admin page';
 })->before('auth');
+
+Route::get('deploy', 'ServerController@deploy')->before('auth');
