@@ -88,7 +88,7 @@ angular.module('portfolioCtrl', ['angularFileUpload'])
 		})
 
 		// UPDATE An artwork ======================================================
-		$scope.editWork = function() {
+		$scope.editWork = function(event) {
 			$scope.loading = true;
 
 			artwork.update($scope.artworkData)
@@ -110,6 +110,7 @@ angular.module('portfolioCtrl', ['angularFileUpload'])
 				.error(function(data) {
 					console.log(data);
 				});
+			event.preventDefault();
 		}
 
 		// RESET the form ========================================================

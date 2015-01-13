@@ -97,7 +97,7 @@ class PortfolioController extends \BaseController {
 	}
 
 	public function show($artwork) {
-		$artwork = $this->artwork->whereArtWork($artwork)->first();
+		$artwork = $this->artwork->whereId($artwork)->first();
 		return View::make('portfolio.show', ['artwork' => $artwork]);
 	}
 
