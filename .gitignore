@@ -10,5 +10,6 @@ pass.txt
 crisp.sublime-project
 crisp.sublime-workspace
 privatekeyccrisp.ppk
-app/config/database.php
-public_html/index.php
+/app/config/database.php
+/public_html/index.php
+/bootstrap
