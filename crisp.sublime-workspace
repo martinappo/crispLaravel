@@ -1,0 +1,1317 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hash",
+				"hashToSign"
+			],
+			[
+				"temp",
+				"tempPath"
+			],
+			[
+				"cert",
+				"certHex"
+			],
+			[
+				"cer",
+				"certHex"
+			],
+			[
+				"insert",
+				"insert_to_table"
+			],
+			[
+				"bank",
+				"banklinkCharset"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"user",
+				"user_query"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"error",
+				"errorThrown"
+			],
+			[
+				"jq",
+				"jqXHR"
+			],
+			[
+				"image",
+				"imagesize"
+			],
+			[
+				"lopp",
+				"lopp"
+			],
+			[
+				"categ",
+				"category_posts"
+			],
+			[
+				"cate",
+				"category_posts"
+			],
+			[
+				"slider",
+				"sliderpagination"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"word-",
+				"word-wrap"
+			],
+			[
+				"d",
+				"d:b	display:block"
+			],
+			[
+				"tt",
+				"tt:n	text-transform:none"
+			],
+			[
+				"custom_meta_m",
+				"custom_meta_mangu_aeg"
+			],
+			[
+				"mask",
+				"mask"
+			],
+			[
+				"wor",
+				"word-spacing"
+			],
+			[
+				"fle",
+				"flex-direction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "pass.txt",
+			"settings":
+			{
+				"buffer_size": 82,
+				"line_ending": "Windows",
+				"name": "Database:	r53225_crisp"
+			}
+		},
+		{
+			"file": "app/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/config/remote.php",
+			"settings":
+			{
+				"buffer_size": 1589,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/PortfolioController.php",
+			"settings":
+			{
+				"buffer_size": 4332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 4613,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "public/js/services/artworkService.js",
+			"settings":
+			{
+				"buffer_size": 1114,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/controllers/portfolioCtrl.js",
+			"settings":
+			{
+				"buffer_size": 6112,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/portfolioCtrl.js",
+			"settings":
+			{
+				"buffer_size": 6115,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/contact.blade.php",
+			"settings":
+			{
+				"buffer_size": 144,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/default.blade.php",
+			"settings":
+			{
+				"buffer_size": 1355,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 1220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/PagesController.php",
+			"settings":
+			{
+				"buffer_size": 182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n	<head>\n		<meta charset=\"UTF-8\">\n		[[ HTML::style('bootstrap-3.3.1/dist/css/bootstrap.css') ]]\n		[[ HTML::style('css/style.css') ]]\n		[[ HTML::script('js/jquery.min.js') ]]\n		[[ HTML::script('js/angular.min.js') ]]\n		[[ HTML::script('bootstrap-3.3.1/dist/js/bootstrap.min.js') ]]\n		@yield('head')\n	</head>\n	<body>\n		<div class=\"container\">\n			<nav class=\"navbar navbar-default\" role=\"navigation\">\n				<div class=\"container-fluid\">\n					<div class=\"navbar-header col-md-10 col-sm-10\">\n						<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n							<span class=\"sr-only\">Toggle navigation</span>\n							<span class=\"icon-bar\"></span>\n							<span class=\"icon-bar\"></span>\n							<span class=\"icon-bar\"></span>\n						</button>\n						<a class=\"navbar-brand col-sm-10 col-md-10 col-xs-10\" href=\"[[ URL::to('/') ]]\"></a>\n					</div>\n					<div id=\"navbar\" class=\"navbar-collapse collapse\">\n						<ul class=\"nav navbar-nav navbar-right\">\n							<li class=\"active\"><a href=\"#\">Meist</a></li>\n							<li><a href=\"#\">Portfolio</a></li>\n							<li><a href=\"#\">Kontakt</a></li>\n						</ul>\n					</div><!--/.nav-collapse -->\n				</div><!--/.container-fluid -->\n			</nav>\n		</div>\n		@yield('content')\n	</body>\n</html> \n",
+			"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/default.blade.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n/**\n * Laravel - A PHP Framework For Web Artisans\n *\n * @package  Laravel\n * @author   Taylor Otwell <taylorotwell@gmail.com>\n */\n\n/*\n|--------------------------------------------------------------------------\n| Register The Auto Loader\n|--------------------------------------------------------------------------\n|\n| Composer provides a convenient, automatically generated class loader\n| for our application. We just need to utilize it! We'll require it\n| into the script here so that we do not have to worry about the\n| loading of any our classes \"manually\". Feels great to relax.\n|\n*/\n\nrequire __DIR__.'/../../laravel4/bootstrap/autoload.php';\n\n/*\n|--------------------------------------------------------------------------\n| Turn On The Lights\n|--------------------------------------------------------------------------\n|\n| We need to illuminate PHP development, so let's turn on the lights.\n| This bootstraps the framework and gets it ready for use, then it\n| will load up this application so that we can run it and send\n| the responses back to the browser and delight these users.\n|\n*/\n\n$app = require_once __DIR__.'/../../laravel4/bootstrap/start.php';\n\n/*\n|--------------------------------------------------------------------------\n| Run The Application\n|--------------------------------------------------------------------------\n|\n| Once we have the application, we can simply call the run method,\n| which will execute the request and send the response back to\n| the client's browser allowing them to enjoy the creative\n| and wonderful application we have whipped up for them.\n|\n*/\n\n$app->run();\n",
+			"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/index.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1610,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\nreturn array(\n\n	/*\n	|--------------------------------------------------------------------------\n	| PDO Fetch Style\n	|--------------------------------------------------------------------------\n	|\n	| By default, database results will be returned as instances of the PHP\n	| stdClass object; however, you may desire to retrieve records in an\n	| array format for simplicity. Here you can tweak the fetch style.\n	|\n	*/\n\n	'fetch' => PDO::FETCH_CLASS,\n\n	/*\n	|--------------------------------------------------------------------------\n	| Default Database Connection Name\n	|--------------------------------------------------------------------------\n	|\n	| Here you may specify which of the database connections below you wish\n	| to use as your default connection for all database work. Of course\n	| you may use many connections at once using the Database library.\n	|\n	*/\n\n	'default' => 'mysqlLive',\n\n	/*\n	|--------------------------------------------------------------------------\n	| Database Connections\n	|--------------------------------------------------------------------------\n	|\n	| Here are each of the database connections setup for your application.\n	| Of course, examples of configuring each database platform that is\n	| supported by Laravel is shown below to make development simple.\n	|\n	|\n	| All database work in Laravel is done through the PHP PDO facilities\n	| so make sure you have the driver for your particular database of\n	| choice installed on your machine before you begin development.\n	|\n	*/\n\n	'connections' => array(\n\n		'sqlite' => array(\n			'driver'   => 'sqlite',\n			'database' => __DIR__.'/../database/production.sqlite',\n			'prefix'   => '',\n		),\n\n		'mysql' => array(\n			'driver'    => 'mysql',\n			'host'      => 'localhost',\n			'database'  => 'testinglaravel',\n			'username'  => 'root',\n			'password'  => '',\n			'charset'   => 'utf8',\n			'collation' => 'utf8_general_ci',\n			'prefix'    => '',\n		),\n\n		'mysqlLive' => array(\n			'driver'    => 'mysql',\n			'host'      => 'localhost',\n			'database'  => 'r53225_crisp',\n			'username'  => 'r53225_crisp',\n			'password'  => 'wcL9hKlDJb',\n			'charset'   => 'utf8',\n			'collation' => 'utf8_general_ci',\n			'prefix'    => '',\n		),\n\n		'pgsql' => array(\n			'driver'   => 'pgsql',\n			'host'     => 'localhost',\n			'database' => 'forge',\n			'username' => 'forge',\n			'password' => '',\n			'charset'  => 'utf8',\n			'prefix'   => '',\n			'schema'   => 'public',\n		),\n\n		'sqlsrv' => array(\n			'driver'   => 'sqlsrv',\n			'host'     => 'localhost',\n			'database' => 'database',\n			'username' => 'root',\n			'password' => '',\n			'prefix'   => '',\n		),\n\n	),\n\n	/*\n	|--------------------------------------------------------------------------\n	| Migration Repository Table\n	|--------------------------------------------------------------------------\n	|\n	| This table keeps track of all the migrations that have already run for\n	| your application. Using this information, we can determine which of\n	| the migrations on disk haven't actually been run in the database.\n	|\n	*/\n\n	'migrations' => 'migrations',\n\n	/*\n	|--------------------------------------------------------------------------\n	| Redis Databases\n	|--------------------------------------------------------------------------\n	|\n	| Redis is an open source, fast, and advanced key-value store that also\n	| provides a richer set of commands than a typical key-value systems\n	| such as APC or Memcached. Laravel makes it easy to dig right in.\n	|\n	*/\n\n	'redis' => array(\n\n		'cluster' => false,\n\n		'default' => array(\n			'host'     => '127.0.0.1',\n			'port'     => 6379,\n			'database' => 0,\n		),\n\n	),\n\n);\n",
+			"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/database.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 3604,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"package cont",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control",
+				"Package Control: Remove Package"
+			],
+			[
+				"PHP Code Sniffer: ",
+				"PHP Code Sniffer: Turn Execute On Save Off"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/marti_000/Projektid/startingWithLaravel",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/app",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/app/controllers",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/app/views",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/app/views/layouts",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/public",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/public/js/controllers"
+	],
+	"file_history":
+	[
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/artworkService.js",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/paths.php",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/app.php",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/routes.php",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/default.blade.php",
+		"/C/Users/marti_000/Projektid/startingWithLaravel/server.php",
+		"/C/Users/marti_000/Projektid/test/composer.json",
+		"/C/Users/marti_000/Projektid/test/app/config/app.php",
+		"/C/Users/marti_000/Google Drive/web/business media/nommekalju/theme/themes/Nomme Kalju/js/jscript.js",
+		"/C/Users/marti_000/Repos/SilmaringiEksamiKeskkond/database/patch3.sql",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/js/jscript.js",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/js/ajaxFiler.js",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/js/ajax-login-script.js",
+		"/C/Users/marti_000/Downloads/muu/pdfSlider-master/example/pdf.html",
+		"/C/Users/marti_000/Downloads/3DMGAME-The.Next.Car.Game.Pre-Alpha.v0.173633.Digital.Deluxe.Edition.Cracked-3DM/Bugbear Entertainment/Readme.txt",
+		"/C/Users/marti_000/Downloads/muu/pdfSlider-master/index.html",
+		"/C/Users/marti_000/Repos/SilmaringiEksamiKeskkond/public/js/jquery.min.js",
+		"/C/Users/marti_000/Desktop/wp-cron.php",
+		"/C/Users/marti_000/Repos/SilmaringiEksamiKeskkond/database/lesson_files_table.sql",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalingid-template.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/config-swed.php",
+		"/C/Users/marti_000/Desktop/send.php",
+		"/C/Users/marti_000/Desktop/receive.php",
+		"/C/Users/marti_000/Desktop/receive (2).php",
+		"/C/Users/marti_000/Desktop/auth.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/config.php",
+		"/C/Users/marti_000/Desktop/receive (1).php",
+		"/C/Users/marti_000/Repos/Crisp/portfolio.html",
+		"/C/Users/marti_000/Repos/Crisp/sass/_portfolio.scss",
+		"/C/Users/marti_000/Repos/Crisp/sass/_fonts.scss",
+		"/C/Users/marti_000/Repos/Crisp/sass/_common.scss",
+		"/C/Users/marti_000/Repos/Crisp/sass/_index.scss",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/template-voistl_reg.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/functions.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/kalender-ekv.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/single-v_registr.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/voistlused.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-neljap.php",
+		"/C/Users/marti_000/Desktop/gen (4).txt",
+		"/C/Users/marti_000/Desktop/gen (6).txt",
+		"/C/Users/marti_000/Desktop/gen (5).txt",
+		"/C/Users/marti_000/Desktop/gen (1).txt",
+		"/C/Users/marti_000/Desktop/gen (2).txt",
+		"/C/Users/marti_000/Desktop/gen (3).txt",
+		"/C/Users/marti_000/Desktop/gen.txt",
+		"/C/Users/marti_000/Desktop/Allalaaditud fail",
+		"/C/Users/marti_000/Repos/fmi/module/CsnNavigation/Module.php",
+		"/C/Users/marti_000/Repos/Crisp/sass/_header.scss",
+		"/C/Users/marti_000/Repos/Crisp/index.html",
+		"/C/Users/marti_000/Repos/fmi/config/autoload/acl.global.php",
+		"/C/wamp/www/TM/wp-content/plugins/pangalink/config.php",
+		"/C/wamp/www/TM/wp-content/plugins/pangalink/my_private_key.pem",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/config-test.php",
+		"/C/Users/marti_000/Repos/fmi/module/CsnNavigation/config/module.config.php",
+		"/C/Users/marti_000/Repos/fmi/module/Auth/src/Auth/Controller/IndexController.php",
+		"/C/Users/marti_000/Repos/fmi/config/autoload/navigation.global.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/bankLink.php",
+		"/C/Users/marti_000/Repos/fmi/module/CsnNavigation/src/CsnNavigation/Acl/Acl.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/header.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/header-sign.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/kalender.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/allkirjastamine.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Soap/Client.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Exception/ApiException.php",
+		"/C/Users/marti_000/Repos/tarkvaratehnikaTeam7/.git/config",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Signature.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/allkirjasta.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Api.php",
+		"/C/Users/marti_000/Repos/Robotiina/conf/ports.ini",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Tracker.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Container.php",
+		"/C/Users/marti_000/Repos/tarkvaratehnikaTeam7/.git/sourcetreeconfig",
+		"/C/wamp/www/TM/wp-content/uploads/pangalink/bank_certificate.pem",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Soap/Wsdl/DigiDocService.php",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/__leping_44.txt",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/__leping_25.txt",
+		"/C/wamp/www/TM/wp-content/extensions/sign js/sign.html",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/all-edetabelid.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Session.php",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/__leping_39.txt",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/kalender-mk.php",
+		"/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/allkirjastamine.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/php-digidoc/src/Container.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-naised.php",
+		"/C/wamp/www/TM/wp-content/plugins/allkirjastamine/src/Encoder.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/bank.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/shoppingCart.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/config2.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/front-page.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/youtube-template.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalink/config-seb.php",
+		"/C/Users/marti_000/Google Drive/Kool/5. semester/robootika/coil_driver/robotex_2012_coil_driver.Dat",
+		"/C/Users/marti_000/Google Drive/Kool/5. semester/robootika/NC Drill/coil_board.TXT",
+		"/C/Users/marti_000/Google Drive/Kool/5. semester/robootika/Coil_rev1.3.zip",
+		"/C/Users/marti_000/Google Drive/Kool/5. semester/robootika/coil_driver/Project Outputs for robotex_2012_coil_driver/Design Rule Check - coil_board.html",
+		"/C/Users/marti_000/Google Drive/web/business media/tallinnamook/pangalink/request.pem",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/user-system.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-tsooniturniir.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/author.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/sass/_user.scss",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/sass/_uudised.scss",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-cpoisid.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-ctudrukud.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-dpoisid.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-mehed.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-dtudrukud.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-meesj.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-meesk.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-naisj.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid-naisk.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/all-edetabelid-frontpage.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/memberlist-template.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/edetabelid.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/sass/style.scss",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/sass/_edetabelid.scss",
+		"/C/wamp/www/TM/wp-content/plugins/pangalink/pay.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/pangalingid-template-backup.php",
+		"/C/wamp/www/TM/wp-content/plugins/pangalink/notify.php",
+		"/C/wamp/www/TM/wp-content/themes/TMtheme/sass/_pricing.scss",
+		"/C/wamp/www/TM/wp-content/uploads/pangalink/swedbank_certificate.pem",
+		"/C/Users/marti_000/Google Drive/web/business media/tallinnamook/pangalink/cert pass.txt",
+		"/C/wamp/www/TM/wp-content/uploads/pangalink/tmkey.pem",
+		"/C/wamp/www/TM/wp-content/uploads/pangalink/my_private_key.pem",
+		"/C/Users/marti_000/Google Drive/web/business media/kalju FTP.txt",
+		"/C/Users/marti_000/Google Drive/web/business media/nommekalju/wordpresspw.txt",
+		"/C/wamp/www/kaljunoored/wp-content/themes/meeskond/js/jscript.js",
+		"/C/wamp/www/kaljunoored/wp-content/themes/meeskond/functions.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 187.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\TM\\wp-content\\plugins\\allkirjastamine",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\all-edetabelid-frontpage.php",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\pangalingid-template.php",
+			"<open files>",
+			"C:\\wamp\\www\\TM\\wp-content\\plugins\\allkirjastamine",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\vendor\\kgilden\\php-digidoc",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\custom-register.php",
+			"C:\\wamp\\www\\TM\\wp-content\\themes\\TMtheme\\user-system.php",
+			"C:\\Users\\marti_000\\Google Drive\\web\\business media\\tallinnamook\\TMhtmlcss\\",
+			"C:\\Users\\marti_000\\Google Drive\\web\\business media\\tallinnamook\\TMhtmlcss\\js\\jscript.js",
+			"jscript.js",
+			"C:\\Users\\marti_000\\Google Drive\\web\\business media\\tallinnamook\\TMhtmlcss\\edetabelid.html",
+			"C:\\Users\\marti_000\\Google Drive\\web\\business media\\tallinnamook\\TMhtmlcss",
+			"C:\\Users\\marti_000\\Google Drive\\web\\business media\\tallinnamook\\TMhtmlcss\\sass",
+			"",
+			"C:\\wamp\\www\\jkkalju\\wp-content\\plugins\\leaguemanager",
+			"<project>",
+			"C:\\wamp\\www\\jkkalju\\wp-content\\plugins\\leaguemanager",
+			"C:\\wamp\\www\\KMM\\wp-content\\themes\\KMM",
+			"C:\\Users\\marti_000\\Google Drive\\web\\Rovita\\sass",
+			"C:\\wamp\\www\\samara\\wp-content\\themes\\samaragroup",
+			"C:\\wamp\\www\\kaljunoored\\wp-content\\themes\\meeskond",
+			"meeskond",
+			"header.php",
+			"jscript.js",
+			"<open files>",
+			"",
+			"C:\\Users\\marti_000\\Google Drive\\web\\Crisp back\\backendcrisp",
+			"C:\\wamp\\www\\KMM\\wp-content\\themes\\KMM",
+			"C:\\Users\\marti_000\\Google Drive\\web\\Crisp back\\backendcrisp",
+			"<index.html>",
+			"<open files>",
+			"",
+			"<open files>,C:\\Users\\marti_000\\Google Drive\\web\\Rovita",
+			"<open files>",
+			"",
+			"C:\\wamp\\www\\jkkalju\\wp-content\\themes\\nommekalju",
+			"C:\\wamp\\www\\test\\wp-content\\plugins\\wp-clone-by-wp-academy",
+			"C:\\wamp\\www\\jkkalju\\wp-content\\themes\\nommekalju\\sass",
+			"",
+			"C:\\wamp\\www\\jkkalju\\wp-content\\themes\\nommekalju\\sass",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"kalender",
+			"name",
+			"submit",
+			"variableorder",
+			"birth",
+			"print",
+			"birth",
+			"date",
+			"vanus",
+			"to_banklink",
+			"signature",
+			"log",
+			"false, ICL_LANGUAGE_CODE",
+			"merge",
+			"addsignature",
+			"signature",
+			"merge",
+			"container",
+			"addsignatures",
+			"addsignature",
+			"addfile",
+			"create",
+			"//$",
+			"signature",
+			"merge",
+			"signature",
+			"tracker",
+			"create",
+			"createan",
+			"createand",
+			"$leping",
+			"changef",
+			"load_posts",
+			"load_p",
+			"digidocsi",
+			"certhex",
+			"certid",
+			"myajax",
+			"signajax",
+			"load_p",
+			"admin-aja",
+			"myajax",
+			"ajaxurl",
+			"myaja",
+			"ajaxfil",
+			"the_ajax_hook",
+			"ajax",
+			"ajax_login",
+			"form",
+			"get",
+			"sign()",
+			"hash",
+			"allkirjasta",
+			"setsolution",
+			"create",
+			"addsignature",
+			"encode",
+			"boolea",
+			"public",
+			"call",
+			"digidocservice",
+			"CheckCertificate",
+			"revocationData",
+			"revocation",
+			"encode",
+			"base",
+			"openxades",
+			"openx",
+			"version",
+			"setdigidoc",
+			"wsdl",
+			"sealsignatures",
+			"wsdl_test",
+			"wsdl_prod",
+			"youtube",
+			"youtube.c",
+			"var_du",
+			"from",
+			"banklink",
+			"banklinkcharset",
+			"variableorder",
+			"preferences",
+			"generatemac",
+			"generate",
+			"generatemac",
+			"variable",
+			"$kokkuJarjesta = $kokku+($jarjesta/10);",
+			"$kokkuJarjesta = $kokku+$jarjesta;",
+			"user",
+			"seaded",
+			"\"user\"",
+			"user",
+			"				$voistlejad_new = array();\n				foreach ($voistlejad as $voistleja):\n					$kokku = 0;\n					$kokkuJarjesta = 0;\n					foreach($voistlused as $voistlus):	\n					 	$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n					 	$punktid = (int)$voistleja[$voistlus_strip];\n						$kokku += $punktid;\n						$kokkuJarjesta += $punktid + ($punktid*$punktid);\n				 	endforeach;\n				 	$voistleja[\"kokku\"] = $kokku;\n				 	$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n				 	array_push($voistlejad_new, $voistleja);",
+			"function sortByOrder(",
+			"function sortByOrder",
+			"function",
+			"sortby",
+			"function sortByOrder",
+			"						\n						function sortByOrder($a, $b) {\n						    return $b['kokkuJarjesta'] - $a['kokkuJarjesta'];\n						}",
+			"sortByOrder",
+			"tüdrukud",
+			"var_dump($voistlejad_sorted);",
+			"<?php \n										if ($voistlejad && $voistlused){\n						\n						foreach($voistlejad as $voistleja){\n						$kokku = 0;\n						$jarjesta = 0;\n						$i = 0;\n						foreach($voistlused as $voistlus){\n							$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n							$punktid = (int)$voistleja[$voistlus_strip];\n							$kokku += $punktid;\n							if (($punktid > $jarjesta) && ($i != 0)){\n								$jarjesta = $punktid;\n								$i = 1;\n							}							\n						}\n						$kokkuJarjesta = $kokku+$jarjesta;\n						$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n						$voistleja[\"kokku\"] = $kokku;\n						array_push($voistlejad_sorted, $voistleja);\n					}\n						\n				}//if end",
+			"					if ($voistlejad && $voistlused){\n						\n						foreach($voistlejad as $voistleja){\n						$kokku = 0;\n						$jarjesta = 0;\n						$i = 0;\n						foreach($voistlused as $voistlus){\n							$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n							$punktid = (int)$voistleja[$voistlus_strip];\n							$kokku += $punktid;\n							if (($punktid > $jarjesta) && ($i != 0)){\n								$jarjesta = $punktid;\n								$i = 1;\n							}							\n						}\n						$kokkuJarjesta = $kokku+$jarjesta;\n						$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n						$voistleja[\"kokku\"] = $kokku;\n						array_push($voistlejad_sorted, $voistleja);\n					}\n						\n				}//if end",
+			"if ($voistlejad && $voistlused){\n						\n						foreach($voistlejad as $voistleja){\n						$kokku = 0;\n						$kokkuJarjesta = 0;\n						foreach($voistlused as $voistlus){\n							$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n							$punktid = (int)$voistleja[$voistlus_strip];\n							$kokku += $punktid;\n							$kokkuJarjesta += $punktid + ($punktid*2);\n						}\n						$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n						$voistleja[\"kokku\"] = $kokku;\n						array_push($voistlejad_sorted, $voistleja);\n					}\n						\n				}//if end",
+			"$punktid*$punktid",
+			"$banklinkCharset_swed",
+			"banklinkCharset_swed",
+			"$preferences_swed",
+			"banklinkCharset",
+			"$preferences",
+			"bankname",
+			"vk_service",
+			".pem",
+			"notify",
+			"uname",
+			"user_metadata",
+			"user_id",
+			"user_",
+			"register",
+			"face",
+			"username",
+			"uname",
+			"register",
+			"user_register",
+			"username",
+			"image",
+			"meta"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$kokkuJarjesta = (float)$kokku+($jarjesta/100);",
+			"$kokkuJarjesta = $kokku+($jarjesta/10);",
+			" 				$voistlejad_new = array();\n				foreach ($voistlejad as $voistleja):\n					$kokku = 0;\n					$jarjesta = 0;\n					$i = 0;\n					$kokkuJarjesta = 0;\n					foreach($voistlused as $voistlus):	\n					 	$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n					 	$punktid = (int)$voistleja[$voistlus_strip];\n						$kokku += $punktid;\n						if (($punktid > $jarjesta) && !($i == 0)){\n							$jarjesta = $punktid;\n						}	\n						$i = 1;	\n				 	endforeach;\n				 	$kokkuJarjesta = $kokku+$jarjesta;\n				 	$voistleja[\"kokku\"] = $kokku;\n				 	$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n				 	array_push($voistlejad_new, $voistleja);",
+			" ",
+			"				<?php \n					if ($voistlejad && $voistlused){\n						\n						foreach($voistlejad as $voistleja){\n						$kokku = 0;\n						$jarjesta = 0;\n						$i = 0;\n						$kokkuJarjesta = 0;\n						foreach($voistlused as $voistlus){\n							$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n							$punktid = (int)$voistleja[$voistlus_strip];\n							$kokku += $punktid;\n							if (($punktid > $jarjesta) && !($i == 0)){\n								$jarjesta = $punktid;\n								\n							}	\n							$i = 1;						\n						}\n						$kokkuJarjesta = $kokku+$jarjesta;\n						$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n						$voistleja[\"kokku\"] = $kokku;\n						array_push($voistlejad_sorted, $voistleja);\n					}\n						\n				}//if end",
+			"					if ($voistlejad && $voistlused){\n						\n						foreach($voistlejad as $voistleja){\n						$kokku = 0;\n						$jarjesta = 0;\n						$i = 0;\n						foreach($voistlused as $voistlus){\n							$voistlus_strip = preg_replace('/\\s+/', '', $voistlus['voistluse_nimi']);\n							$punktid = (int)$voistleja[$voistlus_strip];\n							$kokku += $punktid;\n							if (($punktid > $jarjesta) && ($i != 0)){\n								$jarjesta = $punktid;\n								$i = 1;\n							}							\n						}\n						$kokkuJarjesta = $kokku+$jarjesta;\n						$voistleja[\"kokkuJarjesta\"] = $kokkuJarjesta;\n						$voistleja[\"kokku\"] = $kokku;\n						array_push($voistlejad_sorted, $voistleja);\n					}\n						\n				}//if end",
+			"$punktid*2",
+			"$banklinkCharset",
+			"banklinkCharset",
+			"$preferences",
+			"$preferences_swed",
+			"<?php get_template_part(\"modal-box\") ?>",
+			"<p class=\"message\"><?php _e('Vabandame, hetkel pole siin midagi näidata', 'TMtheme') ?></p>",
+			"",
+			"$file",
+			"\"",
+			"<img src=\"img/euronics.png\" alt=\"\">",
+			"<img src=\"img/euronics.jpg\" alt=\"\">",
+			"main2",
+			" ",
+			"",
+			"img",
+			"ProximaNova-RegIt-webfont",
+			"ProximaNova-Reg-webfont",
+			"ProximaNova-LightIt-webfont",
+			"ProximaNova-Light-webfont",
+			"<a href=\"http://www.jkkalju.ee \"><div class=\"optibet\"><?php _e( 'Your club &nbsp;     ', 'kalju' ) ?>|</div></a>",
+			"    font-family: 'Source Sans Pro';\n    font-weight: 600;",
+			"    font-family: 'Source Sans Pro';\n    font-weight: 700;",
+			"			<?php if(get_option( kategooria_leht_banner1 )) {echo adrotate_ad(get_option( kategooria_leht_banner1 ));} ?>\n			<?php if(get_option( kategooria_leht_banner2 )) {echo adrotate_ad(get_option( kategooria_leht_banner2 ));} ?>\n			<?php if(get_option( kategooria_leht_banner3 )) {echo adrotate_ad(get_option( kategooria_leht_banner3 ));} ?>",
+			"						<?php \n				if (get_option( tekstileht_banner1 )){\n				echo adrotate_ad(get_option( tekstileht_banner1 )); }\n			?>\n			<?php if (get_option( tekstileht_banner2 )){ echo adrotate_ad(get_option( tekstileht_banner2 ));} ?>\n			<?php if (get_option( tekstileht_banner3 )) {echo adrotate_ad(get_option( tekstileht_banner3 ));}?>",
+			"			<?php \n				if (get_option( tekstileht_banner1 )){\n				echo adrotate_ad(get_option( tekstileht_banner1 )); }\n			?>\n			<?php if (get_option( tekstileht_banner1 )){ echo adrotate_ad(get_option( tekstileht_banner2 ));} ?>\n			<?php if (get_option( tekstileht_banner1 )) {echo adrotate_ad(get_option( tekstileht_banner3 ));}?>",
+			"			<?php \n				if (get_option( tekstileht_banner1 )){\n				echo adrotate_ad(get_option( tekstileht_banner1 )); }\n			?>\n			<?php if (get_option( tekstileht_banner1 )) echo adrotate_ad(get_option( tekstileht_banner2 )); ?>\n			<?php if (get_option( tekstileht_banner1 )) echo adrotate_ad(get_option( tekstileht_banner3 )); ?>",
+			"			<?php \n				if (get_option( tekstileht_banner1 )){\n				echo adrotate_ad(get_option( tekstileht_banner1 )); }\n			?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner2 )); ?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner3 )); ?>",
+			"			<?php \n				if (get_option( tekstileht_banner1 ) !== 0){\n				echo adrotate_ad(get_option( tekstileht_banner1 )); }\n			?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner2 )); ?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner3 )); ?>",
+			"			<?php \n				switch_to_blog( 1);\n				$blog_details = get_blog_details(1 );\n			?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner1 )); ?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner2 )); ?>\n			<?php echo adrotate_ad(get_option( tekstileht_banner3 )); ?>\n			<?php \n				restore_current_blog();\n			?>",
+			"<?php \n				switch_to_blog( 1);\n				$blog_details = get_blog_details(1 );\n			?>\n			<?php echo adrotate_ad(get_option( kategooria_leht_banner1 )); ?>\n			<?php echo adrotate_ad(get_option( kategooria_leht_banner2 )); ?>\n			<?php echo adrotate_ad(get_option( kategooria_leht_banner3 )); ?>\n			<?php \n				restore_current_blog();\n			?>\n			",
+			"uritus",
+			"promokast5",
+			"promokast4",
+			"promokast3",
+			"promokast2",
+			"promokast1",
+			"			<a class=\"meeskond\" href=\"\">\n				<div class=\"pilt\"></div>\n				<div class=\"nimi\">2000 Arigato</div>\n			</a><!-- single meeskond-->",
+			"<div class=\"nimi\">2000 Arigato</div>",
+			"type=\"submit\"",
+			"http://www.optibet.ee ",
+			"Proud sponsor of Kalju &nbsp;     ",
+			"'Proud sponsor of Kalju &nbsp;     '",
+			"Toys on the internet",
+			"<a href=\"http://www.toys.ee\"><div class=\"optibet\"><?php _e( 'Toys on the internet &nbsp;     ', 'kalju' ) ?>|</div></a>",
+			"<?php _e( 'Toys on the internet &nbsp;     ', 'kalju' ) ?>",
+			"<input type=\"submit\" value=\"\" title=\"Salvesta\" class=\"btn\" style=\"background-image: url(img/save.png);\">",
+			"<input type=\"submit\" value=\"\" title=\"salvesta\" class=\"btn\" style=\"background-image: url(img/save.png);\">",
+			"<input type=\"submit\" value=\"\" title=\"lisa\" class=\"btn\" style=\"background-image: url(img/plus.png);\">",
+			"<input type=\"submit\" title=\"kustuta\" value=\"\" class=\"btn\" style=\"background-image: url(img/prugi.png);\">",
+			"Slaid",
+			"class=\"lisa openModal\"",
+			"type=\"submit\"\n",
+			"url(img/",
+			"url(img/plus.png);",
+			"<script src=\"js/jquery.js\"></script>\n<script src=\"js/jquery-ui.js\"></script>\n<script src=\"js/min/jscript.min.js\"></script>\n<script src=\"js/min/wysiwyg.min.js\"></script>",
+			"check0",
+			"check1",
+			"check2",
+			"check5",
+			"check3",
+			"check4",
+			"check3",
+			"check4",
+			"check5",
+			"check4",
+			"check3",
+			"check2",
+			"check1",
+			"check0",
+			"check6",
+			"check5",
+			"check4",
+			"check3",
+			"check2",
+			"check1",
+			"check0",
+			"type=\"submit\" value=\"\"",
+			"type=\"submit\"",
+			"Vali",
+			"<td><a href=\"\">lehe nimi</a></td>\n			        <td><a href=\"\">autor</a></td>\n			        <td><a href=\"\">kuupäev</a></td>",
+			"<div placeholder=\"Kirjuta sisu siia\" class=\"lahter editor\" contenteditable></div>",
+			"class=\"select-all\"",
+			"<div id=\"est\" class=\"tab-content\">",
+			"<div id=\"ru\" class=\"tab-content\">",
+			"<div id=\"eng\" class=\"tab-content\">",
+			"<div class=\"box tabsActive group\"",
+			"<header class=\"ulem group\">\n							<div class=\"logo\" style=\"background-image: url(<?php echo get_template_directory_uri(); ?>/img/kalju.png)\"></div>\n							<h1 class=\"meeskond\"><?php the_title() ?></h1>\n						</header>",
+			"<header class=\"ulem group\">\n							<div class=\"logo\" style=\"background-image: url(img/kalju.png)\"></div>\n							<h1 class=\"meeskond\"><?php the_title() ?></h1>\n						</header>",
+			" <td><a href=\"single-toode.html\"><div class=\"productImg\"",
+			"<td><a href=\"single-toode.html\">Toote nimi</a></td>",
+			"					<li class=\"active\"><a href=\"index.html\">Avaleht</a></li>\n					<li><a href=\"kategooriad.html\">Seadmed</a></li>\n					<li><a href=\"referentsid.html\">Referentsid</a></li>\n					<li><a href=\"kontakt.html\">Kontakt</a></li>",
+			"<a href=\"index.html\" class=\"logo\"></a>",
+			"background-image: url(img/",
+			"background-image: url(../img/",
+			"url(img",
+			"<script src=\"js/min/carousel.min.js\"></script>",
+			"<script src=\"/js/min/carousel.min.js\"></script>\n<script src=\"js/helper-plugins/jquery.touchSwipe.min.js\"></script>",
+			"<a href=\"\"><div class=\"productImg\" style=\"background-image: url(/img/pildike.jpg);\"></div></a>",
+			"<a href=\"\">Toote nimi</a>",
+			"header class=\"block",
+			"<a href=\"http://www.optibet.ee\"><div class=\"optibet\"><?php _e( 'Proud sponsor of Kalju &nbsp;     ', 'kalju' ) ?>|</div></a>",
+			"'j. F Y'",
+			"'j . F Y'",
+			"Proud sponsor of Kalju &nbsp;",
+			"Proud sponsor of Kalju   ",
+			"Proud sponsor of Kalju  "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "pass.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 82,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								72
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Database:	r53225_crisp",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2125,
+								2125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/config/remote.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1110,
+								1110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/PortfolioController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4613,
+								4613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/js/services/artworkService.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "public/js/controllers/portfolioCtrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/portfolioCtrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								201,
+								201
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/contact.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								50
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/layouts/default.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								919,
+								937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1133,
+								1133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/controllers/PagesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/default.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1143,
+								1143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/marti_000/AppData/Local/Temp/fz3temp-1/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3604,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								892,
+								892
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 85.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "crisp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\marti_000\\Repos\\SilmaringiEksamiKeskkond\\sublimeproject.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

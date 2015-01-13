@@ -1,0 +1,4 @@
+Database:	r53225_crisp
+Host:	localhost
+Username:	r53225_crisp
+Password:	wcL9hKlDJb

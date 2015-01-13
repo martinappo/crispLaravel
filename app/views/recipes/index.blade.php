@@ -1,0 +1,1 @@
+C:\Users\marti_000\Projektid\startingWithLaravel\app/views/recipes/index.blade.php
