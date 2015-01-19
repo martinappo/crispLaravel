@@ -2,9 +2,9 @@
 
 @section('content')
 
-	<div class="row">
+	<div class="container">
 		<section class="content">
-			contact@crisp.ee
+			<a class="kontakt" href="mailto:contact@crisp.ee">contact@crisp.ee</a>
 		</section>
 	</div>
 

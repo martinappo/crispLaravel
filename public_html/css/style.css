@@ -86,20 +86,20 @@ html body #navbar ul li a:hover {
   color: #000;
 }
 html body section.content {
-  width: 75%;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2.2em;
+  font-size: 5em;
   font-weight: 300;
-  padding-top: 15%;
+  padding-top: 10%;
+  line-height: 1;
 }
 html body section.content a.kontakt {
   text-decoration: none;
   color: #464547;
+  transition: opacity 0.2s ease-in-out;
 }
 html body section.content a.kontakt:hover {
-  transition: opacity 0.2s ease-in-out;
   opacity: 0.6;
 }
 html body section.content .bold {
