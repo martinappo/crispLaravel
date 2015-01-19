@@ -77,6 +77,8 @@ html body #navbar ul li a {
   color: #464547;
   text-decoration: none;
   font-weight: 300;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 html body #navbar ul li a:hover {
   background-color: transparent;
@@ -398,7 +400,7 @@ div.portfolio .el:hover {
   background-color: transparent;
 }
 .portfolio-single #next {
-  right: -25px;
+  right: -40px;
   top: 25%;
   margin-top: 78.5px;
   -moz-transform: rotate(180deg);
@@ -408,7 +410,7 @@ div.portfolio .el:hover {
   transform: rotate(180deg);
 }
 .portfolio-single #prev {
-  left: -25px;
+  left: -40px;
   top: 25%;
   margin-top: 78.5px;
 }
