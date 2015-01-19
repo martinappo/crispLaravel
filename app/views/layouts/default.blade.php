@@ -11,10 +11,10 @@
 
 	</head>
 	<body>
-		<div class="container">
-			<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<nav class="navbar navbar-default col-lg-14 col-centered" role="navigation">
 				<div class="container-fluid">
-					<div class="navbar-header col-md-10 col-sm-10 col-lg-12">
+					<div class="navbar-header col-md-10 col-sm-10">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
