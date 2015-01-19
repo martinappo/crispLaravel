@@ -6,7 +6,7 @@
 	[[ HTML::script('js/jquery-ui.min.js') ]]
 @stop
 @section('content')
-	<div class="container portfolio-single" ng-controller="singlePortfolioController" ng-app="singlePortfolioApp">
+	<div class="container portfolio-single col-lg-14 col-centered" ng-controller="singlePortfolioController" ng-app="singlePortfolioApp">
 		<div id="artworks">
 			<ul id="arworks-ul">
 				<li ng-repeat="artwork in artworks" on-last-repeat><a href="#artworks-{{ artwork.id }}">{{ artwork.name }}</a></li>
