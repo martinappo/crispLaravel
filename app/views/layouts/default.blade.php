@@ -24,13 +24,13 @@
 						<a class="navbar-brand col-sm-10 col-md-10 col-xs-10" href="[[ URL::to('/') ]]"></a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
-						<!-- 
+
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="#">Meist</a></li>
 							<li><a href="#">Portfolio</a></li>
 							<li><a href="#">Kontakt</a></li>
 						</ul>
-						-->
+
 					</div><!--/.nav-collapse -->
 				</div><!--/.container-fluid -->
 			</nav>

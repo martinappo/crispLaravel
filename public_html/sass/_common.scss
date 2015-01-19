@@ -52,7 +52,8 @@ html{
 		.navbar-default {
 			background-color:transparent;
 			border:none;
-			margin-top: 30px;
+			margin-top: 50px;
+			margin-bottom: 50px;
 			.navbar-nav{
 				li:active a{
 						background-color: transparent;
@@ -69,7 +70,9 @@ html{
 					color: #000;
 					a{
 						transition: all 0.2s ease-in-out;
-						line-height: 48px;
+						line-height: 50px;
+						padding-top: 0px;
+						padding-bottom: 0px;
 						color: $fontcolor;
 						text-decoration: none;
 						font-weight: 300;
