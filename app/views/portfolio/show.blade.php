@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('head')
+@section('footer')
 	[[ HTML::script('js/controllers/singlePortfolioCtrl.js') ]]
 	[[ HTML::script('js/services/artworkService.js') ]]
 	[[ HTML::script('js/app.js') ]]
@@ -32,10 +32,8 @@
 						<li ng-repeat="image in artwork.images"><a href="#artworks-{{image.artwork_id}}-image-{{image.id}}"></a></li>
 					</ul>
 
-					<div ng-repeat="image in artwork.images" id="artworks-{{image.artwork_id}}-image-{{image.id}}">
-						<img src="/uploads/{{image.url}}"/>
+					<div ng-repeat="image in artwork.images" class="single-image" id="artworks-{{image.artwork_id}}-image-{{image.id}}" style="background-image: url(/uploads/{{image.url}});">
 					</div>
-
 				</div>
 
 				<div class="clearfix"></div>

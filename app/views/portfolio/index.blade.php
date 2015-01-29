@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('head')
+@section('footer')
 	[[ HTML::script('js/controllers/portfolioCtrl.js') ]]
 	[[ HTML::script('js/services/artworkService.js') ]]
 	[[ HTML::script('js/app.js') ]]
