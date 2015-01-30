@@ -1,1 +1,0 @@
-C:\Users\marti_000\Projektid\startingWithLaravel\app/views/recipes/create.blade.php

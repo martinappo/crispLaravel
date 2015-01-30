@@ -9,7 +9,6 @@ angular.module('singlePortfolioCtrl', [])
 
 	// inject the artwork service into our controller
 	.controller('singlePortfolioController', function($scope, $http, artwork) {
-
 		// GET ALL artworkS =====================================================
 		artwork.get()
 			.success(function(data) {
@@ -20,7 +19,8 @@ angular.module('singlePortfolioCtrl', [])
 		// After repeaters complete, initiate jquery UI tabs and other logic====
 		$scope.$on('onRepeatLast', function(scope, element, attrs){
 			$(function() {
-				
+				var activeIndex = $('.portfolio-element').index($('div#artworks-'+artworkId));
+
 				var tabs = $( "#artworks" ).tabs({
 					show: { effect: "fade", duration: 100 },
 					hide: { effect: "fade", duration: 100 },
@@ -31,9 +31,12 @@ angular.module('singlePortfolioCtrl', [])
 					show: function(event, ui) {
 						jQuery(this).css('height', 'auto');
 						jQuery(this).css('overflow', 'visible');
-					}
+					},
+					active: activeIndex
 				});
 				var count = $('.portfolio-element').length;
+
+				console.log(activeIndex);
 
 				$('.portfolio-image').each(function() {
 					$( this ).tabs({

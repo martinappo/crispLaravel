@@ -4,6 +4,9 @@
 	[[ HTML::script('js/services/artworkService.js') ]]
 	[[ HTML::script('js/app.js') ]]
 	[[ HTML::script('js/jquery-ui.min.js') ]]
+	<script>
+		var artworkId = [[ $artwork->id ]];
+	</script>
 @stop
 @section('content')
 	<div class="container portfolio-single col-lg-14 col-centered" ng-controller="singlePortfolioController" ng-app="singlePortfolioApp">
