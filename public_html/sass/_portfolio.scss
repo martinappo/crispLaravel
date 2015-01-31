@@ -19,6 +19,10 @@ div.portfolio{
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-size: cover;
+			&.logo {
+				background-size: auto 40%;
+				background-position: center 30%;
+			}
 			.hoverpic{
 				background-repeat: no-repeat;
 				background-position: center center;
@@ -35,14 +39,11 @@ div.portfolio{
 				-o-transition: all 200ms ease-in-out;
 				transition: all 200ms ease-in-out;
 				z-index: 0;
-				&.logo {
-					display: none !important;
+				&.logo{
+					background-size: auto 40%;
+					background-position: center 30%;
 				}
 			}
-			&.logo{
-				background-image: none !important;
-			}
-
 			&:hover{
 				//background: none !important;
 				.hoverpic{
@@ -75,13 +76,6 @@ div.portfolio{
 				z-index: 1;
 				color: rgba(255,255,255, 1);
 			}
-		}
-		.logo{
-			max-width: 80%;
-			margin-bottom: 5%;
-			margin-top: 15%;
-			margin-left: auto;
-			margin-right: auto;
 		}
 		&:hover{
 			opacity: 1;

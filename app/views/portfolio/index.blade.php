@@ -186,15 +186,15 @@
 					<a ng-repeat="artwork in artworks" href="[[ URL::to('portfolio/{{ artwork.id }}') ]]">
 					<div class="el pic col-lg-4 col-md-5 col-sm-10" style="background-image: url(uploads/{{artwork.cover.url}});" ng-class="{logo: artwork.type=='logo'}">
 				@endif
-					
 
-						<img ng-if="artwork.type=='logo'" class="logo" height="40%" src="uploads/{{artwork.cover.url}}" alt="{{ artwork.subtitle }}">
 						<div class="text">
+
 							@if ($auth)
 								<button type="button" class="btn btn-primary edit-work" data-toggle="modal" data-target="#editWork" ng-click="fillEditWork(artwork.id)">Muuda</button>
 								<button type="button" class="btn btn-danger delete-work" ng-click="deleteWork(artwork.id)">Kustuta</button>
 								<a class="btn btn-primary" href="[[ URL::to('portfolio/{{ artwork.id }}') ]]">Vahi</a>
 							@endif
+
 							<h1>
 								{{ artwork.title }}
 							</h1>
