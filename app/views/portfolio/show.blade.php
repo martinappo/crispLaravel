@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('footer')
+@section('head')
 	[[ HTML::script('js/controllers/singlePortfolioCtrl.js') ]]
 	[[ HTML::script('js/services/artworkService.js') ]]
 	[[ HTML::script('js/app.js') ]]
@@ -21,9 +21,9 @@
 
 				<div class="col-md-6 portfolio-sidebar">
 					<header>
-						<p class="kategooria">{{ artwork.type }}</p>
+						<p class="type">{{ artwork.type }}</p>
 						<p class="work"><b>{{ artwork.title }}</b></p>
-						<p class="klient">{{ artwork.client }}</p>
+						<p class="client">{{ artwork.client }}</p>
 					</header>
 
 					<p class="desc">

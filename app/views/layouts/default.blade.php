@@ -3,6 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<!-- css -->
+		[[ HTML::style('bootstrap-3.3.1/dist/css/bootstrap.css') ]]
+		[[ HTML::style('css/style.css') ]]
+		<!-- js -->
+		[[ HTML::script('js/jquery.min.js') ]]
+		[[ HTML::script('js/angular.min.js') ]]
+		[[ HTML::script('bootstrap-3.3.1/dist/js/bootstrap.min.js') ]]
 		@yield('head')
 
 	</head>
@@ -17,7 +24,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand col-sm-10 col-md-10 col-xs-10" href="[[ URL::to('/') ]]"></a>
+						<a class="navbar-brand col-sm-10 col-md-5 col-lg-5 col-xs-10" href="[[ URL::to('/') ]]"></a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
@@ -30,11 +37,6 @@
 			</nav>
 		</div>
 		@yield('content')
-		[[ HTML::style('bootstrap-3.3.1/dist/css/bootstrap.css') ]]
-		[[ HTML::style('css/style.css') ]]
-		[[ HTML::script('js/jquery.min.js') ]]
-		[[ HTML::script('js/angular.min.js') ]]
-		[[ HTML::script('bootstrap-3.3.1/dist/js/bootstrap.min.js') ]]
 		@yield('footer')
 	</body>
 </html> 

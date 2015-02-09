@@ -19,10 +19,6 @@ div.portfolio{
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-size: cover;
-			&.logo {
-				background-size: auto 40%;
-				background-position: center 30%;
-			}
 			.hoverpic{
 				background-repeat: no-repeat;
 				background-position: center center;
@@ -39,10 +35,6 @@ div.portfolio{
 				-o-transition: all 200ms ease-in-out;
 				transition: all 200ms ease-in-out;
 				z-index: 0;
-				&.logo{
-					background-size: auto 40%;
-					background-position: center 30%;
-				}
 			}
 			&:hover{
 				//background: none !important;
@@ -123,6 +115,11 @@ div.portfolio{
 				margin-top: 5px;
 				font-size: 10pt;
 				font-weight: 300;
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				padding-right: 20px;
+				padding-left: 20px;
 			}
 		}
 		&.fb{
@@ -242,10 +239,11 @@ div.portfolio{
 		padding-right: 3%;
 
 		header{
-			p.kategooria{
+			p.type{
 				font-size: 18pt;
 				font-weight: 400;
 				margin-bottom: 0px;
+				text-transform: capitalize;
 			}
 			p.work {
 				font-size: 18pt;
