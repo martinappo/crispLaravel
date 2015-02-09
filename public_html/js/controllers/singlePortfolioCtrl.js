@@ -16,6 +16,7 @@ angular.module('singlePortfolioCtrl', [])
 				$scope.loading = false;
 			});
 
+		$('#bodyContainer').hide();
 		// After repeaters complete, initiate jquery UI tabs and other logic====
 		$scope.$on('onRepeatLast', function(scope, element, attrs){
 			$(function() {
@@ -36,7 +37,7 @@ angular.module('singlePortfolioCtrl', [])
 				});
 				var count = $('.portfolio-element').length;
 
-				console.log(activeIndex);
+				$('#bodyContainer').fadeIn('slow');
 
 				$('.portfolio-image').each(function() {
 					$( this ).tabs({
