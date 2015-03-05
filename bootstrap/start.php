@@ -26,8 +26,8 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('crisp.dev'),
-	'production' => array('crisp.ee')
+	'local' => array('localhost'),
+	'live' => array('a166.radicenter.eu')
 
 ));
 
