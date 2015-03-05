@@ -25,9 +25,9 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'r53225_crisp',
 			'username'  => 'r53225_crisp',
-			'password'  => 'Eyg1pw0Jn',
+			'password'  => 'wcL9hKlDJb',
 			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
+			'collation' => 'utf8_general_ci',
 			'prefix'    => '',
 		),
 
