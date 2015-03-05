@@ -11,6 +11,4 @@ crisp.sublime-project
 crisp.sublime-workspace
 privatekeyccrisp.ppk
 /app/config/database.php
-/public_html/index.php
-/bootstrap
 app/config/remote.php
