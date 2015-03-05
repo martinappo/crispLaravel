@@ -20,10 +20,8 @@ return array(
 
 	'connections' => array(
 
-		'driver'    => 'mysql',
-
 		'mysql' => array(
-			
+			'driver'    => 'mysql',
 			'host'      => 'localhost',
 			'database'  => 'r53225_crisp',
 			'username'  => 'r53225_crisp',
