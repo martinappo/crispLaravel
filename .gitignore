@@ -11,3 +11,4 @@ crisp.sublime-project
 crisp.sublime-workspace
 privatekeyccrisp.ppk
 app/config/remote.php
+public/.htaccess

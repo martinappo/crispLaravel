@@ -21,7 +21,20 @@
 
 				<div class="col-md-6 portfolio-sidebar">
 					<header>
-						<p class="type">{{ artwork.type }}</p>
+						<div class="type" ng-switch='artwork.type'>
+							<div ng-switch-when='logo'>
+								Logo
+							</div>
+							<div ng-switch-when="web">
+								Veebirakendus
+							</div>
+							<div ng-switch-when='poster'>
+								Poster
+							</div>
+							<div ng-switch-default>
+								Kunstitöö
+							</div>
+						</div>
 						<p class="work"><b>{{ artwork.title }}</b></p>
 						<p class="client">{{ artwork.client }}</p>
 					</header>

@@ -110,7 +110,13 @@ angular.module('portfolioCtrl', ['angularFileUpload'])
 				.error(function(data) {
 					console.log(data);
 				});
-			event.preventDefault();
+				try {
+					event.preventDefault();
+				}
+				catch(err) {
+					console.log('Couldnt prevent default');
+				}
+			
 		}
 
 		// RESET the form ========================================================
