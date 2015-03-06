@@ -15,10 +15,9 @@ html{
 		background-attachment: fixed;
 
 		.group:after {
-		  content: "";
-		  display: table;
-		  clear: both;
-
+			content: "";
+			display: table;
+			clear: both;
 		}
 
 		.col-centered{
@@ -47,7 +46,6 @@ html{
 		&.portfolio{
 			min-height: 48px;
 			height: 48px;
-
 		}
 
 		//Navbar
@@ -103,13 +101,85 @@ html{
 			text-align: left;
 			margin-left: auto;
 			margin-right: auto;
-			font-size: 5em;
 			font-weight: 300;
-			padding-top: 10%;
 			line-height: 1;
-			@media only screen and (min-width: 1500px) { 
-				font-size: 6em; 
+			padding-top: 40px;
+			&.huge {
+				padding-top: 10%;
 			}
+
+			h1 {
+				text-transform: uppercase;
+				font-size: 3.7em;
+				@media only screen and (min-width: 1601px) { 
+					font-size: 4.5em; 
+				}
+			}
+
+			div.huge {
+				font-size: 7em;
+				@media only screen and (min-width: 1601px) { 
+					font-size: 8em; 
+				}
+			}
+
+			.big {
+				font-size: 1.2em;
+			}
+
+			article.text {
+				margin-top: 20px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				padding-right: 40px;
+				text-align: justify;
+				p {
+					font-size: 1.6em;
+					line-height: 1.3;
+					font-weight: 400;
+					text-indent: 40px;
+					margin: 0px;
+					&:first-of-type {
+						text-indent: 0px;
+					}
+				}
+			}
+
+			.about {
+				&.persons {
+					padding-right: 50px;
+					padding-left: 50px;
+					a {
+						color: $fontcolor;
+					}
+				}
+				text-align: center;
+
+				.person {
+					margin-bottom: 20px;
+				}
+				.person-foto {
+					height: 150px;
+					width: 150px;
+					border-radius: 150px;
+					border: solid 1px $fontcolor;
+					margin: 20px;
+					display: inline-block;
+				}
+
+				.person-info {
+					text-align: center;
+					&.person-name {
+						font-weight: 400;
+						text-transform: uppercase;
+					}
+					&.preson-desc {
+						letter-spacing: 0.75px;
+					}
+				}
+			}
+
 			a.kontakt{
 				text-decoration: none;
 				color: $fontcolor;

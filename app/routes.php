@@ -14,6 +14,7 @@ Blade::setContentTags('[[', ']]'); // for variables and all things Blade
 Blade::setEscapedContentTags('[[[', ']]]'); // for escaped data
 
 Route::get('/', 'PagesController@index');
+Route::get('/about', 'PagesController@about');
 
 Route::get('login', 'SessionsController@create');
 Route::get('logout', 'SessionsController@destroy');
