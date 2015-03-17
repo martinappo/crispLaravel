@@ -33,7 +33,7 @@
 		</div>
 		@yield('content')
 		<!-- js -->
-		[[ HTML::script('js/all.js') ]]
+		[[ HTML::script('js/all.min.js') ]]
 		@yield('footer')
 	</body>
 </html> 

@@ -32,9 +32,9 @@ gulp.task('scripts', function() {
 		})
 		.pipe(concat('all.js'))
 		.pipe(gulp.dest('public/js'))
-		/*.pipe(rename({suffix: '.min'}))
+		.pipe(rename({suffix: '.min'}))
 		.pipe(uglify())
-		.pipe(gulp.dest('public/js'))*/
+		.pipe(gulp.dest('public/js'))
 		.pipe(notify({ message: 'Scripts task complete' }));
 });
 
