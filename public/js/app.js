@@ -1,2 +1,0 @@
-var portfolioApp = angular.module('portfolioApp', ['portfolioCtrl', 'artworkService', 'ui.sortable']);
-var singlePortfolioApp = angular.module('singlePortfolioApp', ['singlePortfolioCtrl', 'artworkService']);

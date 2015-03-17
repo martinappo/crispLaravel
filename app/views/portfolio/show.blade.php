@@ -1,15 +1,11 @@
 @extends('layouts.default')
-@section('head')
-	[[ HTML::script('js/controllers/singlePortfolioCtrl.js') ]]
-	[[ HTML::script('js/services/artworkService.js') ]]
-	[[ HTML::script('js/app.js') ]]
-	[[ HTML::script('js/jquery-ui.min.js') ]]
+@section('footer')
 	<script>
 		var artworkId = [[ $artwork->id ]];
 	</script>
 @stop
 @section('content')
-	<div class="container portfolio-single col-lg-14 col-centered" ng-controller="singlePortfolioController" ng-app="singlePortfolioApp" id="bodyContainer">
+	<div class="container portfolio-single col-lg-14 col-centered" ng-controller="singlePortfolioController" ng-app="portfolioApp" id="bodyContainer">
 		<div id="artworks">
 			<ul id="arworks-ul">
 				<li ng-repeat="artwork in artworks" on-last-repeat><a href="#artworks-{{ artwork.id }}">{{ artwork.name }}</a></li>
@@ -48,7 +44,7 @@
 						<li ng-repeat="image in artwork.images"><a href="#artworks-{{image.artwork_id}}-image-{{image.id}}"></a></li>
 					</ul>
 
-					<div ng-repeat="image in artwork.images" class="single-image" id="artworks-{{image.artwork_id}}-image-{{image.id}}" style="background-image: url(/uploads/{{image.url}});">
+					<div ng-repeat="image in artwork.images" class="single-image" id="artworks-{{image.artwork_id}}-image-{{image.id}}" back-img="/uploads/{{image.url}}">
 					</div>
 				</div>
 

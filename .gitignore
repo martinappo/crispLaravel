@@ -13,3 +13,5 @@ privatekeyccrisp.ppk
 app/config/remote.php
 public/.htaccess
 public/img/bg_edit.psd
+node_modules/
+.sass-cache/

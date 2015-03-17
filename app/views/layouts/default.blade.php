@@ -4,12 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 		<!-- css -->
-		[[ HTML::style('bootstrap-3.3.1/dist/css/bootstrap.css') ]]
-		[[ HTML::style('css/style.css') ]]
-		<!-- js -->
-		[[ HTML::script('js/jquery.min.js') ]]
-		[[ HTML::script('js/angular.min.js') ]]
-		[[ HTML::script('bootstrap-3.3.1/dist/js/bootstrap.min.js') ]]
+		[[ HTML::style('css/all.min.css') ]]
 		@yield('head')
 
 	</head>
@@ -37,6 +32,8 @@
 			</nav>
 		</div>
 		@yield('content')
+		<!-- js -->
+		[[ HTML::script('js/all.js') ]]
 		@yield('footer')
 	</body>
 </html> 
