@@ -3,10 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<script async="async">
+			window.onload = function() {
+				alert("hello!");
+			}
+		</script>
 		<!-- css -->
 		[[ HTML::style('css/all.min.css') ]]
 		@yield('head')
-
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -32,8 +36,9 @@
 			</nav>
 		</div>
 		@yield('content')
-		<!-- js -->
-		[[ HTML::script('js/all.min.js') ]]
 		@yield('footer')
+		<!-- js -->
+		[[ HTML::script('js/all.min.js', array('async' => 'async')) ]]
+
 	</body>
 </html> 
