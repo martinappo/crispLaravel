@@ -63,9 +63,14 @@ gulp.task('css', function() {
 	.pipe(gulp.dest('public/css'));
 });
 
-gulp.task('watch', function () {
+gulp.task('watchstyles', function () {
 	gulp.watch('resources/css/*.scss', ['styles']);
 });
+
+gulp.task('watchscripts', function () {
+	gulp.watch(['resources/js/*.js', 'resources/js/controllers/*.js', 'resources/js/services/*.js'], ['scripts']);
+});
+
 
 
 gulp.task('default', ['scripts', 'sass', 'css']);

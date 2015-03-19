@@ -173,10 +173,10 @@
 		@if ($artworks->count())
 			<div class="portfolio" ui-sortable="sortableOptions" ng-model="artworks">
 				@if ($auth)
-					<div ng-repeat="artwork in artworks" class="el pic col-lg-4 col-md-5 col-sm-10" back-img="/uploads/{{artwork.cover.url}}">
+					<div ng-repeat="artwork in artworks" class="el pic col-lg-4 col-md-5 col-sm-10" back-img-fade="/uploads/{{artwork.cover.url}}">
 				@else
 					<a ng-repeat="artwork in artworks" href="[[ URL::to('portfolio/{{ artwork.id }}') ]]">
-					<div class="el pic col-lg-4 col-md-5 col-sm-10" back-img="/uploads/{{artwork.cover.url}}">
+					<div class="el pic col-lg-4 col-md-5 col-sm-10" back-img-fade="/uploads/{{artwork.cover.url}}">
 				@endif
 
 						<div class="text">
@@ -194,7 +194,7 @@
 								{{ artwork.subtitle }}
 							</div>
 						</div>
-						<div class="hoverpic" back-img="/uploads/{{artwork.hover.url}}"></div>
+						<div class="hoverpic" back-img-fade="/uploads/{{artwork.hover.url}}"></div>
 					</div>
 				@if (!$auth)
 					</a>

@@ -3,8 +3,24 @@ var portfolioApp = angular.module('portfolioApp', ['portfolioCtrl', 'singlePortf
 portfolioApp.directive('backImg', function(){
 	return function(scope, element, attrs){
 		var url = attrs.backImg;
-		element.css({
-			'background-image': 'url(' + url +')',
+		$('<img/>').attr('src', url).load(function() {
+			element.css({
+				'background-image': 'url(' + url +')',
+			});
+		});
+	};
+});
+
+portfolioApp.directive('backImgFade', function(){
+	return function(scope, element, attrs){
+
+		var url = attrs.backImgFade;
+		element.hide();
+		$('<img/>').attr('src', url).load(function() {
+			element.css({
+				'background-image': 'url(' + url +')',
+			});
+			element.fadeIn();
 		});
 	};
 });
