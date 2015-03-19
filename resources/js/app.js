@@ -13,7 +13,6 @@ portfolioApp.directive('backImg', function(){
 
 portfolioApp.directive('backImgFade', function(){
 	return function(scope, element, attrs){
-
 		var url = attrs.backImgFade;
 		element.hide();
 		$('<img/>').attr('src', url).load(function() {

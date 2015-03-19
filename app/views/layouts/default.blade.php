@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 		<!-- css -->
 		[[ HTML::style('css/all.min.css') ]]
+		<!-- js -->
+		[[ HTML::script('js/all.min.js') ]]
 		@yield('head')
 	</head>
 	<body>
@@ -32,8 +34,6 @@
 		</div>
 		@yield('content')
 		@yield('footer')
-		<!-- js -->
-		[[ HTML::script('js/all.min.js') ]]
 
 	</body>
 </html> 
