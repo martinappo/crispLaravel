@@ -17,23 +17,23 @@ angular.module('portfolioCtrl', ['angularFileUpload'])
 		//After repeaters have completed
 		$scope.$on('onRepeatLast', function(scope, element, attrs){
 
-			$(function() {
-				$(window).scroll(function() {
-					if($(window).width() < 500){
-						$('.el').each(function(index, el){
+			$(window).scroll(function() {
+				if($(window).width() < 768){
+					$('.el').each(function(index, el){
+						var posTop = $(el).position().top;
+						var posBottom = posTop + $(el).height();
+						var currentTop = $(window).scrollTop();
+						var height = $(window).height();
+						var currentBottom = currentTop + height;
 
-							var pos = $(el).position().top;
-							var current = $(window).scrollTop();
-							var height = $(window).height();
-							if((pos > current) && (pos < current + height)) {
-								$(el).addClass("hovered");
-							} else {
-								$(el).removeClass("hovered");
-							}
-						});
-					} //less than 500
-				});// on scroll
-			});
+						if((posTop > currentTop) && (posBottom < currentBottom)) {
+							$(el).addClass("hovered");
+						} else {
+							$(el).removeClass("hovered");
+						}
+					});
+				} //less than 500
+			});// on scroll
 
 		}); //On last repeat
 
