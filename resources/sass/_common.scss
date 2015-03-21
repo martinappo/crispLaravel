@@ -104,9 +104,6 @@ html{
 			font-weight: 300;
 			line-height: 1;
 			padding-top: 40px;
-			&.huge {
-				padding-top: 10%;
-			}
 
 			h1 {
 				text-transform: uppercase;
@@ -118,6 +115,14 @@ html{
 
 			div.huge {
 				font-size: 7em;
+				-ms-word-break: break-all;
+				word-break: break-all;
+
+				word-break: break-word;
+
+				-webkit-hyphens: auto;
+				-moz-hyphens: auto;
+				hyphens: auto;
 				@media only screen and (min-width: 1601px) { 
 					font-size: 8em; 
 				}

@@ -126,7 +126,14 @@ html body section.content {
 }
 
 html body section.content.huge {
+  display: none;
   padding-top: 10%;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 html body section.content h1 {
@@ -480,6 +487,9 @@ div.portfolio .el.fb .face:hover {
 
 .portfolio-single #artworks {
   position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-single #artworks ul#arworks-ul li {
@@ -519,7 +529,7 @@ div.portfolio .el.fb .face:hover {
 }
 
 .portfolio-single #next {
-  right: -40px;
+  right: -5%;
   top: 25%;
   margin-top: 78.5px;
   -moz-transform: rotate(180deg);
@@ -530,7 +540,7 @@ div.portfolio .el.fb .face:hover {
 }
 
 .portfolio-single #prev {
-  left: -40px;
+  left: -5%;
   top: 25%;
   margin-top: 78.5px;
 }
@@ -549,6 +559,14 @@ div.portfolio .el.fb .face:hover {
 .portfolio-single #next:hover,
 .portfolio-single #prev:hover {
   opacity: .6;
+}
+
+@media only screen and (max-width:900px) {
+  .portfolio-single #next,
+  .portfolio-single #prev {
+    height: 15px;
+    width: 15px;
+  }
 }
 
 .portfolio-single .portfolio-sidebar {

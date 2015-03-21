@@ -5,7 +5,7 @@
 	</script>
 @stop
 @section('content')
-	<div class="container portfolio-single col-lg-14 col-centered" ng-controller="singlePortfolioController" ng-app="portfolioApp" id="bodyContainer">
+	<div class="portfolio-single col-lg-14 col-centered" ng-controller="singlePortfolioController" ng-app="portfolioApp" id="bodyContainer">
 		<div id="artworks">
 			<ul id="arworks-ul">
 				<li ng-repeat="artwork in artworks" on-last-repeat><a href="#artworks-{{ artwork.id }}">{{ artwork.name }}</a></li>

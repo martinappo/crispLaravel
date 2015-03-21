@@ -13,9 +13,9 @@
 		@if ($artworks->count())
 			<div class="portfolio" ui-sortable="sortableOptions" ng-model="artworks">
 				@if ($auth)
-					<div ng-repeat="artwork in artworks" class="el pic col-lg-4 col-md-5 col-sm-10" back-img-fade="/uploads/{{artwork.cover.url}}">
+					<div ng-repeat="artwork in artworks" class="el pic col-lg-4 col-md-5 col-sm-10" on-last-repeat back-img-fade="/uploads/{{artwork.cover.url}}">
 				@else
-					<a ng-repeat="artwork in artworks" href="[[ URL::to('portfolio/{{ artwork.id }}') ]]">
+					<a ng-repeat="artwork in artworks" on-last-repeat href="[[ URL::to('portfolio/{{ artwork.id }}') ]]">
 					<div class="el pic col-lg-4 col-md-5 col-sm-10" back-img-fade="/uploads/{{artwork.cover.url}}">
 				@endif
 

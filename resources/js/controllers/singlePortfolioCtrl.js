@@ -1,13 +1,4 @@
 angular.module('singlePortfolioCtrl', [])
-	.directive('onLastRepeat', function() {
-		return function(scope, element, attrs) {
-			if (scope.$last) setTimeout(function(){
-				scope.$emit('onRepeatLast', element, attrs);
-			}, 1);
-		};
-	})
-
-	// inject the artwork service into our controller
 	.controller('singlePortfolioController', function($scope, $http, artwork) {
 		// GET ALL artworkS =====================================================
 		artwork.get()
@@ -15,7 +6,6 @@ angular.module('singlePortfolioCtrl', [])
 				$scope.artworks = data;
 				$scope.loading = false;
 			});
-
 		$('#bodyContainer').hide();
 		// After repeaters complete, initiate jquery UI tabs and other logic====
 		$scope.$on('onRepeatLast', function(scope, element, attrs){
@@ -141,13 +131,14 @@ angular.module('singlePortfolioCtrl', [])
 					e.preventDefault(); // prevent the default action (scroll / move caret)
 				});
 
-				//For mobile
+				//For mobile ================================================================
 					//For project
 				$( "#artworks" ).on( "swipeleft", prevSlide );
 				$( "#artworks" ).on( "swiperight", nextSlide );
 					//For image
 				$( ".portfolio-image" ).on( "swipeleft", prevImage );
 				$( ".portfolio-image" ).on( "swiperight", nextImage );
+
 			});
 		});
 
