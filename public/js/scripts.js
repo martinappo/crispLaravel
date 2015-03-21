@@ -285,9 +285,7 @@ angular.module('singlePortfolioCtrl', [])
 				});
 				var count = $('.portfolio-element').length;
 
-				$('#bodyContainer').fadeIn('slow');
-
-				$('.portfolio-image').each(function() {
+				$('.portfolio-image').each(function(idx, val, f) {
 					$( this ).tabs({
 						show: { effect: "fade", duration: 100 },
 						hide: { effect: "fade", duration: 100 },
@@ -301,6 +299,8 @@ angular.module('singlePortfolioCtrl', [])
 						}
 					});
 				});
+
+				$('#bodyContainer').fadeIn('slow');
 
 				function nextSlide(){
 					var selectedTab = tabs.tabs( "option", "active" );
