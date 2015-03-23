@@ -64,9 +64,25 @@ html{
 			border:none;
 			margin-top: 50px;
 			margin-bottom: 50px;
+
+			.navbar-header {
+				button {
+					margin-right: 0px;
+				}
+			}
 			.navbar-nav{
 				li:active a{
-						background-color: transparent;
+					background-color: transparent;
+				}
+				@media only screen and (max-width: 768px) {
+					li{
+						text-align: right;
+						a{
+							padding-right: 0px;
+							margin-right: 0px;
+							font-size: 1.35em;
+						}
+					}
 				}
 			}
 			.container-fluid {
@@ -74,7 +90,9 @@ html{
 				padding-right: 0px;
 			}
 		}
-		#navbar {
+		.navbar {
+			
+			width: 90%;
 			ul{
 				padding: 0;
 				margin: 0;

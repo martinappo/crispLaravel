@@ -54,7 +54,6 @@ div.portfolio{
 				left: 0;
 				top: 60%;
 				margin-left: 0;
-				background-color: rgba(0, 0,0, 0.6);
 				width: 100%;
 				padding-top: 5%;
 				padding-bottom: 5%;
@@ -123,7 +122,6 @@ div.portfolio{
 			}
 		}
 		&.fb{
-			background-color: rgba(255, 255,255, 0.3);
 			text-align: center;
 			cursor:  default;
 			position: relative;
@@ -154,9 +152,6 @@ div.portfolio{
 				}
 			}
 
-		}
-		&:hover{
-			background-color: rgba(255, 255,255, 0.3);
 		}
 
 	}
@@ -252,6 +247,7 @@ div.portfolio{
 		background-color: transparent;
 		padding-top: 3%;
 		padding-bottom: 3%;
+
 	}
 	.portfolio-sidebar, .portfolio-image{
 		padding-left: 3%;
@@ -286,9 +282,18 @@ div.portfolio{
 			border-bottom: 1px solid rgba(70,69,71, 0.6);
 			padding-bottom: 5%;
 			margin-bottom: 5%;
+
+			@media only screen and (max-width: 768px) { 
+				padding-right: 5%;
+				padding-left: 5%;
+			}
 		}//header
 		p.desc{
 			line-height: 1.5;
+			@media only screen and (max-width: 768px) { 
+				padding-right: 5%;
+				padding-left: 5%;
+			}
 		}
 
 	}

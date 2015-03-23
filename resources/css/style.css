@@ -51,32 +51,43 @@ html {
       border: none;
       margin-top: 50px;
       margin-bottom: 50px; }
+      html body .navbar-default .navbar-header button {
+        margin-right: 0px; }
       html body .navbar-default .navbar-nav li:active a {
         background-color: transparent; }
+      @media only screen and (max-width: 768px) {
+        html body .navbar-default .navbar-nav li {
+          text-align: right; }
+          html body .navbar-default .navbar-nav li a {
+            padding-right: 0px;
+            margin-right: 0px;
+            font-size: 1.35em; } }
       html body .navbar-default .container-fluid {
         padding-left: 0px;
         padding-right: 0px; }
-    html body #navbar ul {
-      padding: 0;
-      margin: 0; }
-      html body #navbar ul li {
-        margin: 0;
+    html body .navbar {
+      width: 90%; }
+      html body .navbar ul {
         padding: 0;
-        color: #000; }
-        html body #navbar ul li a {
-          transition: all 0.2s ease-in-out;
-          line-height: 50px;
-          padding-top: 0px;
-          padding-bottom: 0px;
-          color: #464547;
-          text-decoration: none;
-          font-weight: 300;
-          padding-left: 30px;
-          padding-right: 30px; }
-          html body #navbar ul li a:hover {
-            background-color: transparent;
-            opacity: 0.4;
-            color: #000; }
+        margin: 0; }
+        html body .navbar ul li {
+          margin: 0;
+          padding: 0;
+          color: #000; }
+          html body .navbar ul li a {
+            transition: all 0.2s ease-in-out;
+            line-height: 50px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            color: #464547;
+            text-decoration: none;
+            font-weight: 300;
+            padding-left: 30px;
+            padding-right: 30px; }
+            html body .navbar ul li a:hover {
+              background-color: transparent;
+              opacity: 0.4;
+              color: #000; }
     html body section.content {
       text-align: left;
       margin-left: auto;
@@ -283,7 +294,6 @@ div.portfolio {
         left: 0;
         top: 60%;
         margin-left: 0;
-        background-color: rgba(0, 0, 0, 0.6);
         width: 100%;
         padding-top: 5%;
         padding-bottom: 5%;
@@ -342,7 +352,6 @@ div.portfolio {
         padding-right: 20px;
         padding-left: 20px; }
     div.portfolio .el.fb {
-      background-color: rgba(255, 255, 255, 0.3);
       text-align: center;
       cursor: default;
       position: relative; }
@@ -369,8 +378,6 @@ div.portfolio {
         margin-left: 10px; }
         div.portfolio .el.fb .face:hover {
           opacity: 0.8; }
-    div.portfolio .el:hover {
-      background-color: rgba(255, 255, 255, 0.3); }
 
 .portfolio-single #artworks {
   position: relative;
@@ -467,8 +474,16 @@ div.portfolio {
       font-weight: 400;
       letter-spacing: .05em;
       padding-top: 10px; }
+    @media only screen and (max-width: 768px) {
+      .portfolio-single .portfolio-sidebar header, .portfolio-single .portfolio-image header {
+        padding-right: 5%;
+        padding-left: 5%; } }
   .portfolio-single .portfolio-sidebar p.desc, .portfolio-single .portfolio-image p.desc {
     line-height: 1.5; }
+    @media only screen and (max-width: 768px) {
+      .portfolio-single .portfolio-sidebar p.desc, .portfolio-single .portfolio-image p.desc {
+        padding-right: 5%;
+        padding-left: 5%; } }
 .portfolio-single .portfolio-image {
   text-align: center;
   background-position: center top;
