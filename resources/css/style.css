@@ -436,10 +436,9 @@ div.portfolio {
     .portfolio-single #next, .portfolio-single #prev {
       display: none; } }
 .portfolio-single .portfolio-sidebar {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
   padding-top: 3%;
-  padding-bottom: 3%;
-  min-height: 350px; }
+  padding-bottom: 3%; }
 .portfolio-single .portfolio-sidebar, .portfolio-single .portfolio-image {
   padding-left: 3%;
   padding-right: 3%; }
@@ -483,4 +482,5 @@ div.portfolio {
     @media only screen and (max-width: 768px) {
       .portfolio-single .portfolio-image .single-image {
         width: 100%;
+        height: auto;
         padding: 0px; } }
