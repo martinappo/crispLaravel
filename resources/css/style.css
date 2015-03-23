@@ -146,15 +146,24 @@ html {
             text-indent: 0px; }
       html body section.content .about-description h1 {
         font-size: 5em; }
+        @media only screen and (max-width: 550px) {
+          html body section.content .about-description h1 {
+            font-size: 4em; } }
+        @media only screen and (max-width: 405px) {
+          html body section.content .about-description h1 {
+            font-size: 3em; } }
       html body section.content .about {
         text-align: center; }
         html body section.content .about.persons {
-          padding-right: 50px;
+          padding-right: 0px;
           padding-left: 50px; }
+          @media only screen and (max-width: 768px) {
+            html body section.content .about.persons {
+              padding-left: 0px; } }
           html body section.content .about.persons a {
             color: #464547; }
         html body section.content .about .person {
-          margin-bottom: 20px; }
+          margin-bottom: 60px; }
         html body section.content .about .person-foto {
           height: 150px;
           width: 150px;

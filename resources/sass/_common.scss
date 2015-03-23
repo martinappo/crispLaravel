@@ -192,12 +192,21 @@ html{
 
 				h1 {
 					font-size: 5em;
+					@media only screen and (max-width: 550px) { 
+						font-size: 4em; 
+					}
+					@media only screen and (max-width:405px) { 
+						font-size: 3em; 
+					}
 				}
 			}
 			.about {
 				&.persons {
-					padding-right: 50px;
+					padding-right: 0px;
 					padding-left: 50px;
+					@media only screen and (max-width:768px) { 
+						padding-left: 0px;
+					}
 					a {
 						color: $fontcolor;
 					}
@@ -205,7 +214,7 @@ html{
 				text-align: center;
 
 				.person {
-					margin-bottom: 20px;
+					margin-bottom: 60px;
 				}
 				.person-foto {
 					height: 150px;

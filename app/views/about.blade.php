@@ -8,7 +8,7 @@
 				<div class="col-md-10 about-description">
 					<h1>
 						<span class="bold">
-							Veebiloome &amp; <br>
+							Veebiloome &amp;
 							graafiline disain
 						</span>
 					</h1>
