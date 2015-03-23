@@ -95,6 +95,9 @@ html {
       font-weight: 300;
       line-height: 1;
       padding-top: 40px; }
+      @media only screen and (max-width: 768px) {
+        html body section.content {
+          padding-top: 20px; } }
       html body section.content h1 {
         text-transform: uppercase;
         font-size: 3.7em; }
@@ -108,10 +111,18 @@ html {
         word-break: break-word;
         -webkit-hyphens: auto;
         -moz-hyphens: auto;
-        hyphens: auto; }
+        hyphens: auto;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%; }
+        @media only screen and (max-width: 768px) {
+          html body section.content div.huge {
+            margin-top: 0px;
+            font-size: 4em; } }
         @media only screen and (min-width: 1601px) {
           html body section.content div.huge {
-            font-size: 8em; } }
+            font-size: 7em; } }
       html body section.content .big {
         font-size: 1.2em; }
       html body section.content article.text {
