@@ -44,8 +44,7 @@
 						<li ng-repeat="image in artwork.images"><a href="#artworks-{{image.artwork_id}}-image-{{image.id}}"></a></li>
 					</ul>
 
-					<div ng-repeat="image in artwork.images" class="single-image" id="artworks-{{image.artwork_id}}-image-{{image.id}}" back-img="/uploads/{{image.url}}">
-					</div>
+					<img src="/uploads/{{image.url}}" ng-repeat="image in artwork.images" class="single-image" id="artworks-{{image.artwork_id}}-image-{{image.id}}">
 				</div>
 
 				<div class="clearfix"></div>

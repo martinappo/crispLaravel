@@ -457,9 +457,11 @@ var portfolioApp = angular.module('portfolioApp', ['portfolioCtrl', 'singlePortf
 portfolioApp.directive('backImg', function(){
 	return function(scope, element, attrs){
 		var url = attrs.backImg;
-		$('<img/>').attr('src', url).load(function() {
+		var img = $('<img/>').attr('src', url);
+		img.load(function() {
 			element.css({
 				'background-image': 'url(' + url +')',
+				//'height': img[0].height,
 			});
 		});
 	};
